@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> Lorelei Hutson 9/22/26
+  <title>CSS Practice Extra Credit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header,
+    main,
+    footer {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Three-column layout */
+    main {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .column {
+      padding: 20px;
+      min-height: 300px;
+      border-radius: 8px;
+    }
+
+    /* Left column */
+    .sideleft {
+      background-color: #add8e6;
+    }
+
+    /* Middle column */
+    .middle {
+      background-color: #a9bcba;
+    }
+
+    /* Right column */
+    .sideright {
+      background-color: #c78b88;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 700px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    h1, h3 {
+      color: blue;
+      font-size:larger
+
+     }
+  </style>
+</head>
+
+<body>
+  
+
+  <header>
+    .header {
+      background-color: blue;
+      padding: 30px;
+      text-align: center;
+    }
+    <h1>CSS Template Extra Credit</h1>
+    <p>This is a page about my favorite movies, foods, and more.</p>
+
+    <h2>Lorelei Hutson</h2>
+    <h3>This is my first CSS web page with CSS!</h3>
+  </header>
+
+  <main>
+
+    <section class="column sideleft">
+      <h2>My Favorite Foods</h2>
+      .ul {
+        list-style-type: none;
+        color: red;
+        text-size: larger;
+        padding: 0;
+      }
+
+      <ul>
+        <li>Chicken Nuggets</li>
+        <li>Pizzas</li>
+        <li>Mac and Cheese</li>
+      </ul>
+    </section>
+
+    <section class="column middle">
+      <h2>3 Facts About Me</h2>
+      .ol {
+        list-style-type: decimal;
+        color: blue;
+        text-size: smaller;
+        padding: 0;
+        border: 1px solid black;
+      }
+
+      <ol>
+        <li>I work on cars</li>
+        <li>I have three tattoos</li>
+        <li>This is my first year at JCCC</li>
+      </ol>
+    </section>
+
+    <aside class="column sideright">
+      <h2>What Do I Want to Do After JCCC?</h2>
+
+      <p>
+        text-align: center;
+        color: black;
+        I hope to take over my parents business that they started in 2008 which is also when I was born. I have been working in the back on the cars, but I am going to JCCC to hopefully find out the business aspect of the shop. I have worked on cars for a couple years now and it is fun, but I am also interested in doing other parts of the business.  
+
+      </p>
+    </aside>
+
+  </main>
+
+  <footer>
+    color: black;
+    border: 1px blue solid;
+    <p>lhutson1@stumail.jccc.edu 9/22.26</p>
+  </footer>
+
+</body>
+</html>
