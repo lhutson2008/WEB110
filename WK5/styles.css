@@ -1,9 +1,9 @@
 /* lorelei hutson 9/22/26 */
 
-nav { 
+.nav { 
   height:35px;}
 
-main {
+.main {
   font-weight: bold;  
   background-image: url(images/marble\ background.jpg);
   background-repeat: repeat-x;
