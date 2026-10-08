@@ -1,35 +1,51 @@
 /* lorelei hutson 9/22/26 */
 
-.nav { 
-  height:35px;}
+nav { 
+  height:35px;
+}
 
-.main {
+main {
   font-weight: bold;  
-  background-image: url(images/marble\ background.jpg);
+  background-image: url(images/background.jpg);
   background-repeat: repeat-x;
 }
+
 body {
     font-family: "Arial", sans-serif;
     background-color: #d7c7aa;
     color: #bb161d;
     font-size: 16px;
     }
-   header { background-color: #00602b; /* Green for Italian vibe */
+
+header { 
+  background-color: #00602b; /* Green for Italian vibe */
   text-align: center;
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
-  color: #ffffff; }
-  h2, h3 {color: #000000; }
+  color: #ffffff; 
+}
 
-  p {color: #230e06;
-  background-color: #ffffff;}
+h2, h3 {color: #000000; 
+}
 
-  .highlight {font-weight: bold;
+p {
+  color: #230e06;
+  background-color: #ffffff;
+}
+
+.highlight {
+font-weight: bold;
 color: #ee1e28;
-font-style: italic;} 
-.special-item {background-color: #ffffff;}
-.footer {text-align: center;
+font-style: italic;
+} 
+
+.special-item {background-color: #ffffff;
+}
+
+footer {
+  text-align: center;
   color: white;
-  background-color: #bb161d;} 
+  background-color: #bb161d;
+} 
   
