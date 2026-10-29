@@ -1,0 +1,120 @@
+/*Lorelei Hutson 2026 */
+ body{
+    background-color:#006be0
+   
+}
+
+nav{
+    background-color: #ff10f0;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 10px solid #ff10f0;
+    padding: 1px;
+    margin: 1px;
+}
+
+
+.a{
+    text-align:right;
+    color:white;
+    border: 1px #ff10f0;
+/* requesting appointment*/
+
+}
+header{
+    background-color: #006be0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px
+    
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2px;
+    padding: 2px;
+    color:#ff10f0
+
+}
+
+
+
+.container{ 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    /*container for flex*/
+}
+
+main{
+    background-color: #006be0;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 8px;
+    padding: 8px;
+}
+.side-by-side-container { 
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    /*container for more flex*/
+}    
+.section{
+    background-color: #006be0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.footer-section{
+    display: flex;
+   justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    /*made special class*/
+}
+
+footer{
+   background-color: black;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   padding: 10px;
+   margin: 10px;
+}
+section{
+     background-color: #006be0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.main{
+    color: #ff10f0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px; 
+    border:#fff solid;
+    /*class for different page setup*/
+}
+
+h3{
+    color:white;
+}
