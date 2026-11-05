@@ -96,12 +96,12 @@ body{
 }
 
 .mountains {
-    background-image: url("mountains2.webp");
+    background-image: url("mountains.webp");
     border: 5px solid #173b32;
 }
 
 .ocean {
-    background-image: url("oceans2.jpg");
+    background-image: url("oceans.jpg");
     border: 5px solid #173b32;
 }
 
