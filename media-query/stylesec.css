@@ -1,0 +1,145 @@
+/*Lorelei Hutson 11/3/26*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #26332e;
+}
+
+.hero {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #294c60;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #173b32;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.heroContent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.heroContent h1{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 10px;
+}
+
+.heroContent p{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.contentSection {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+.contentSection h2 {
+    color: #245b4b;
+}
+
+.parallax {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.parallax h2 {
+    max-width: 90%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    background-color: #000000;
+
+}
+
+.mountains {
+    background-image: url("mountains2.webp");
+    border: 5px solid #173b32;
+}
+
+.ocean {
+    background-image: url("oceans2.jpg");
+    border: 5px solid #173b32;
+}
+
+.footer {
+    padding: 25px;
+    text-align: center;
+    background-color:#173b32;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* ---------- Media Queries ---------- */
+
+@media (max-width: 768px) {
+
+  /* Reduce hero heading size */
+}
+.heroContent h1 {
+    font-size: 1.6rem;
+
+  }
+
+.heroContent p {
+    font-size: 1rem;
+
+  }
+
+.navbar {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+
+  }
+
+.heroContent {
+    padding: 15px;
+
+  }
